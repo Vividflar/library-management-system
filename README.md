@@ -17,7 +17,7 @@ npm run start:dev
 The seed command needs this entry in `api/package.json`:
 
 ```json
-"prisma": { "seed": "ts-node prisma/seed.ts" }
+"prisma": { "seed": "tsx prisma/seed.ts" }
 ```
 
 ## Schema Decisions
